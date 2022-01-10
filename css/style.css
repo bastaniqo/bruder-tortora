@@ -22,7 +22,7 @@ body {
 @media(min-width: 320px) {
 
 header {
-    background: #FFDFD3;
+    background: radial-gradient(#FFDFD3, #2b2e2b);
     width: 100%;
     color: #2b2e2b;
     /*position: sticky;
@@ -48,7 +48,7 @@ header {
     margin:  3.5px auto;
     padding: 2px;
     box-shadow: 2px 4px 13px 0 #000;
-    background-color: #9c9c9c;
+    background: radial-gradient(#9c9c9c, white);
     
 }
 
@@ -56,6 +56,7 @@ header {
     background: #957DAD;
     color: white;
     border-radius: 8px;
+    
 }
 
 .nav-item {
@@ -68,6 +69,11 @@ header {
 .logo {
     width: 150px;
     margin: 12px auto;
+    transition: 0.5s;
+}
+
+.logo:hover {
+    transform: scale(1.1);
 }
 
 .flex-container {
@@ -176,6 +182,7 @@ justify-content: space-evenly;
     height: auto;
     margin-top: 50px;
     border-radius: 50%;
+    
 }
 
 
@@ -184,6 +191,7 @@ h1 {
     font-size: 55px;
     padding: 20px;
     margin: 25px 2px 2px 2px;
+    background: radial-gradient(#E9E5EA, #FFDFD3, #2b2e2b);
 }
 
 h2 {
@@ -199,7 +207,7 @@ h2 {
 }
  
 footer {
-    background: #FFDFD3;
+    background: radial-gradient(#FFDFD3 55%, #2b2e2b);
     margin-top: 100px;
     color: #2b2e2b;
     height: 50px;
