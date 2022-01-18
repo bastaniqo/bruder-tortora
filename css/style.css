@@ -434,6 +434,7 @@ footer a:hover {
     width: 80%;
     height: 300px;
 }
+}
 
 
 @media (min-width: 1150px) {
@@ -544,4 +545,5 @@ footer {
     .carousel-item {
         height: 30rem;
     }
+}
 }
