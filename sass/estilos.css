@@ -39,7 +39,7 @@ html body {
         -ms-flex-align: center;
             align-items: center;
   }
-  html body header div img {
+  html body header div .logo {
     width: 150px;
     margin: 12px auto;
     -webkit-transition: 0.5s;
@@ -216,13 +216,13 @@ section ol {
         -ms-flex-align: center;
             align-items: center;
   }
-  img {
+  .logo {
     width: 170px;
     margin: 2px auto;
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
-  img:hover {
+  .logo:hover {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
   }
@@ -288,6 +288,12 @@ nav ul li a:hover {
           transform: scale(1.2);
 }
 
+.img-semifinal, .img-final {
+  width: 20%;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
 footer {
   grid-area: footer;
   display: -webkit-box;
@@ -331,5 +337,45 @@ footer a i {
   border-radius: 8px;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+.metodo-pago {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.metodo-pago a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.metodo-pago a .icono-pago {
+  margin: 10px 20px 20px 20px;
+  font-size: 50px;
+}
+
+.title-pago {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.icono-pagoPaypal {
+  color: coral;
+}
+
+.icono-pagoCredito {
+  color: blue;
+}
+
+.icono-pagoEfectivo {
+  color: grey;
 }
 /*# sourceMappingURL=estilos.css.map */
