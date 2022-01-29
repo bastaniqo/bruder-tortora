@@ -49,8 +49,6 @@ header {
     background: radial-gradient(#FFDFD3, #2b2e2b);
     width: 100%;
     color: #2b2e2b;
-    /*position: sticky;
-    top: 0;*/
     height: 180px;
 }
 
@@ -116,8 +114,6 @@ header {
     grid-area: navbar;
     background: #E9E5EA;
     height: 150px;
-    /*position: sticky;
-    top: 0;*/
     flex-basis: 100%; 
 }
 
@@ -407,11 +403,7 @@ footer a:hover {
     font-size: 15px;
     border: 1px solid #FEC8D8 ;
     border-radius: 3px;
-    outline: 0px;
-    /*max-width: 530px;
-    min-width: 430px;
-    max-height: 140px;
-    min-height: 150px;*/  
+    outline: 0px;  
 }
 
 .btn-enviar {
