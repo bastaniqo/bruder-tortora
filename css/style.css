@@ -328,6 +328,7 @@ footer a:hover {
 }
 
 .productos-box {
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -498,8 +499,8 @@ footer {
     width: 100%;
     padding: 15px 10px;
     font-size: 15px;
-    border: 1px solid #FEC8D8 ;
-    margin-bottom: 20px;
+    border: 1px solid #FEC8D8;
+    margin: 30px auto;
     border-radius: 3px;
     outline: 0px;
     max-width: 530px;
